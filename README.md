@@ -1,0 +1,1 @@
+Practice with "Object Basics" lesson of Odin Project

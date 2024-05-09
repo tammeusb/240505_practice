@@ -44,6 +44,13 @@
 
         function sumOfTripledEvens(array) {
 
+            return array
+                .filter((num) => num % 2 === 0)
+                .map((num) => num * 3)
+                .reduce((total, curr) => total + curr, 0);
+
+        }
+        /*
             const evenNumbers = smallArray.filter((num) => {
                 return num % 2 === 0;
             });
@@ -63,6 +70,7 @@
             console.log(added);
 
         }
+        */
 
     </script>
   </body>
